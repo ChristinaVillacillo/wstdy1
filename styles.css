@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+body {
+  position: absolute;
+  width: 100%;
+}
+body div.banner {
+  width: 100%;
+  background-color: #F2B9B9;
+  padding: 0%;
+  padding-top: 30px;
+}
+body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  background-color: #F6DFDF;
+  background-image: url("images/bordertop.png");
+  background-repeat: repeat-x;
+  background-size: 250px;
+  padding: 0%;
+}
+main div.left img {
+  width: 100%;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  height: 80%;
+  padding: 15%;
+}
+main div.right {
+  width: 100%;
+  padding: 0%;
+}
+main div.right div.button {
+  margin-top: 60px;
+  cursor: pointer;
+}
+main div.right div.button img {
+  width: 50%;
+  cursor: pointer;
+}
+main div.right div.text {
+  position: relative;
+  color: #000;
+  font-family: Holtwood One SC;
+  font-size: 150%;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 10%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+main div.right div.text2 {
+  position: relative;
+  color: #000;
+  font-family: Holtwood One SC;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 10%;
+  width: 80%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+footer {
+  background-color: #F2B9B9;
+  height: 100px;
+}
+footer div.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+footer div.social img {
+  width: 50px;
+  padding-top: 50px;
+}/*# sourceMappingURL=styles.css.map */
