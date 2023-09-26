@@ -40,10 +40,12 @@ main div.right {
 main div.right div.button {
   margin-top: 60px;
   cursor: pointer;
+  
 }
 main div.right div.button img {
   width: 50%;
   cursor: pointer;
+  padding-left:30%; 
 }
 main div.right div.text {
   position: relative;
