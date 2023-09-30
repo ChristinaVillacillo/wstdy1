@@ -3,11 +3,6 @@
     grid-template-columns: 1fr;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   position: absolute;
   width: 100%;
