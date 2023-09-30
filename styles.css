@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
-@media screen and (max-width:900px) {
-    grid-template-columns: 1fr;
-}
-
 body {
   position: absolute;
   width: 100%;
@@ -23,7 +19,6 @@ body img {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
   width: 100%;
   background-color: #F6DFDF;
   background-image: url("images/bordertop.png");
@@ -35,7 +30,7 @@ main div.left img {
   width: 100%;
   max-width: -moz-max-content;
   max-width: max-content;
- 
+  height: 80%;
   padding: 15%;
 }
 main div.right {
@@ -45,21 +40,19 @@ main div.right {
 main div.right div.button {
   margin-top: 60px;
   cursor: pointer;
-  
 }
 main div.right div.button img {
   width: 50%;
   cursor: pointer;
-  padding-left:20%; 
 }
 main div.right div.text {
   position: relative;
   color: #000;
   font-family: Holtwood One SC;
-  font-size: 200%;
+  font-size: 150%;
   font-style: normal;
   font-weight: 200;
-  padding-left: 5%;
+  padding-left: 10%;
   width: 100%;
   word-wrap: break-word;
   text-align: center;
@@ -68,11 +61,11 @@ main div.right div.text2 {
   position: relative;
   color: #000;
   font-family: Holtwood One SC;
-  font-size: 80%;
+  font-size: 100%;
   font-style: normal;
   font-weight: 200;
-  padding-left: 30%;
-  width: 50%;
+  padding-left: 10%;
+  width: 80%;
   word-wrap: break-word;
   text-align: center;
 }
